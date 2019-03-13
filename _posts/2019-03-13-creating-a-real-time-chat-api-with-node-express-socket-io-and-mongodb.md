@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a Real Time Chat API with Node, Express, Socket.io, and MongoDB"
 date: 2019-03-13 15:24:02 +0700
-categories: [node]
+categories: [nodejs]
 tags: [nodejs, mongodb, express, socketio]
 image: real-time-chat-api-1.jpg
 ---
