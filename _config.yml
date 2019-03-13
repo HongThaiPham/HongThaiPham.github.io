@@ -17,13 +17,11 @@ collections:
 
 social:
   - icon: fa-facebook
-    link: "#"
+    link: "https://www.facebook.com/hongthaipro"
   - icon: fa-twitter
-    link: "#"
+    link: "https://twitter.com/leopham_it"
   - icon: fa-linkedin
-    link: "#"
-  - icon: fa-stack-exchange
-    link: "#"
+    link: "https://www.linkedin.com/in/leo-pham-1208"
   - icon: fa-github
     link: "https://github.com/hongthaipham"
 
