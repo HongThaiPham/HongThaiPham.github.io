@@ -1,1 +1,12 @@
-theme: jekyll-theme-cayman
+# Setup
+name: Leo's Hub
+tagline: A responsive page for project on GitHub
+baseurl: ""
+locale: "en"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
