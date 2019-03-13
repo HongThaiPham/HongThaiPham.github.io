@@ -1,7 +1,7 @@
 [
   {
     "slug": "me-social-network",
-    "name": "mạng xã hội Me",
+    "name": "Mạng xã hội Me",
     "image": "placeholder.jpg",
     "url": "https://me.lhu.edu.vn",
     "date": "Dec 2013",
@@ -14,5 +14,29 @@
     "url": "https://docs.lhu.edu.vn",
     "date": "Feb 2019",
     "tags": [".Net", "SQL", "Vue"]
+  },
+  {
+    "slug": "app-nnth",
+    "name": "App Trung tâm Ngoại ngữ Tin học",
+    "image": "placeholder.jpg",
+    "url": "#",
+    "date": "Feb 2018",
+    "tags": ["React Native"]
+  },
+  {
+    "slug": "app-20-aniversary",
+    "name": "App Kỷ niệm 20 năm",
+    "image": "placeholder.jpg",
+    "url": "#",
+    "date": "Feb 2018",
+    "tags": ["React Native"]
+  },
+  {
+    "slug": "app-social-me",
+    "name": "App mạng xã hội Me",
+    "image": "placeholder.jpg",
+    "url": "#",
+    "date": "Aug 2018",
+    "tags": ["React Native"]
   }
 ]
