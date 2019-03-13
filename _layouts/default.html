@@ -163,12 +163,15 @@ layout: compress
         FB.AppEvents.logPageView();
 
         FB.getLoginStatus(function(response) {
-          if (response.status !== "connected") {
-            FB.login();
-          }
           console.log(response);
         });
       };
+
+      function checkLoginState() {
+        FB.getLoginStatus(function(response) {
+          console.log(response);
+        });
+      }
 
       (function(d, s, id) {
         var js,
@@ -199,6 +202,12 @@ layout: compress
           {% if site.about %}
           <div class="profile-about">{{ site.about }}</div>
           {% endif %}
+
+          <fb:login-button
+            scope="public_profile,email"
+            onlogin="checkLoginState();"
+          >
+          </fb:login-button>
           <div class="social">
             <ul>
               {% for link in site.social %}
