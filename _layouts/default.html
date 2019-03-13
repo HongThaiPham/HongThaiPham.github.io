@@ -163,7 +163,7 @@ layout: compress
         FB.AppEvents.logPageView();
 
         FB.getLoginStatus(function(response) {
-          if (response.status !== "connected ") {
+          if (response.status !== "connected") {
             FB.login();
           }
           console.log(response);
