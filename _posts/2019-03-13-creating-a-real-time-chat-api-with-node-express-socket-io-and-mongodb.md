@@ -7,8 +7,6 @@ tags: [nodejs, mongodb, express, socketio]
 image: real-time-chat-api-1.jpg
 ---
 
-# Creating a Real Time Chat API with Node, Express, Socket.io, and MongoDB
-
 In my last post, I broke down creating an API with JWT authentication. In this post, we are going to set up the server-side work for a real time chat system. We will be using Node, Express, Socket.io, and MongoDB to make it happen.
 
 We are going to build a threaded chat/instant messaging system, much like Facebook Messenger or Google Hangouts. Every message sent will belong to a conversation.

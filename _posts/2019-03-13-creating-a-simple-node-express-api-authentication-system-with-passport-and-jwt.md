@@ -7,8 +7,6 @@ tags: [nodejs, mongodb, express, pasport, authentication]
 image: place_holder.jpeg
 ---
 
-# Creating a Simple Node/Express API Authentication System with Passport and JWT
-
 This guide is old and has been refactored. View the [new guide here](http://blog.slatepeak.com/refactoring-a-basic-authenticated-api-with-node-express-and-mongo/).
 
 [![](https://img.youtube.com/vi/f4F0brwbYKg/0.jpg)](http://www.youtube.com/watch?v=f4F0brwbYKg)
