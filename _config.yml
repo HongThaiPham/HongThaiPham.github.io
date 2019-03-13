@@ -3,7 +3,7 @@ description: My Personal Hub
 author: Leo Pham
 github: https://github.com/hongthaipham
 about: I'm a fullstack dev.
-disqus_shortname: leophamdev
+disqus_shortname: leogithubpage
 google_analytics: UA-136143483-1
 avatar_url: /static/img/avatar.jpg
 
@@ -39,7 +39,7 @@ urls:
   - text: XML Feed
     url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://hongthaipham.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
