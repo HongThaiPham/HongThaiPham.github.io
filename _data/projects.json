@@ -38,5 +38,13 @@
     "url": "#",
     "date": "Aug 2018",
     "tags": ["React Native"]
+  },
+  {
+    "slug": "web-nnth",
+    "name": "Website Trung tâm Ngoại ngữ Tin học",
+    "image": "placeholder.jpg",
+    "url": "#",
+    "date": "Jul 2018",
+    "tags": ["Vue"]
   }
 ]
