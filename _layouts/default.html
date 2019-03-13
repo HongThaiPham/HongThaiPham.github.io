@@ -148,43 +148,6 @@ layout: compress
       ga("create", "{{ site.google_analytics }}", "auto");
       ga("send", "pageview");
     </script>
-
-    <!--Facebook SDK-->
-
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId: "{{site.facebook_appId}}",
-          cookie: true,
-          xfbml: true,
-          version: "{{site.facebook_appVer}}"
-        });
-
-        FB.AppEvents.logPageView();
-
-        FB.getLoginStatus(function(response) {
-          console.log(response);
-        });
-      };
-
-      function checkLoginState() {
-        FB.getLoginStatus(function(response) {
-          console.log(response);
-        });
-      }
-
-      (function(d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {
-          return;
-        }
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
-    </script>
     {% endif %}
   </head>
   <body>
