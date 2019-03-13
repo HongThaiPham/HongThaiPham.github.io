@@ -5,6 +5,8 @@ github: https://github.com/hongthaipham
 about: I'm a fullstack dev.
 disqus_shortname: leogithubpage
 google_analytics: UA-136143483-1
+facebook_appId: 367729610488852
+facebook_appVer: v3.2
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
