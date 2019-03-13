@@ -1,8 +1,2 @@
-# A sample Gemfile
-source "https://rubygems.org"
-gemspec
-
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'kramdown'
-gem 'pygments.rb'
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
